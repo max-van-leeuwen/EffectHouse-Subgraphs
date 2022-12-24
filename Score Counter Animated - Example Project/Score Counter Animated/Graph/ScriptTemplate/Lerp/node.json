@@ -1,0 +1,57 @@
+{
+	"name": "Lerp",
+	"id": "aac82bad-208a-7eb8-e5db-7dcced7fa267",
+	"inputs": [
+		{
+			"name": "Start",
+			"type": "Double",
+			"item_type": "",
+			"dynamic": true,
+			"description": "The lower bound of the range",
+			"displayType": "Number"
+		},
+		{
+			"name": "Stop",
+			"type": "Double",
+			"item_type": "",
+			"dynamic": true,
+			"description": "The upper bound of the range",
+			"displayType": "Number"
+		},
+		{
+			"name": "Step",
+			"type": "Double",
+			"item_type": "",
+			"dynamic": false,
+			"description": "The value used to interpolate between Start and Stop. Value range: 0 to 1.",
+			"displayType": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"type": "Double",
+			"item_type": "",
+			"dynamic": true,
+			"description": "The linear interpolation of Step between Start and Stop. When Step = 0, the result is Start, when Step = 1, the result is Stop.",
+			"displayType": "Number"
+		}
+	],
+	"js": "CGLerp.js",
+	"version": "2.0.0",
+	"amazingVersion": "10.40.0",
+	"category": "Math",
+	"description": "Linearly interpolate a value within a range. Supported types: Number, Vec2, Vec3 and Color.",
+	"supportedValueTypes": [
+		"Double",
+		"Vector2f",
+		"Vector3f",
+		"Color"
+	],
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Math/Lerp"
+}

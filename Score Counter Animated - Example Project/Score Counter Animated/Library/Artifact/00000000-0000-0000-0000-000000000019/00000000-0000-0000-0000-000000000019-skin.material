@@ -1,0 +1,36 @@
+%YAML 1.1
+--- !Material &1
+name: Right Brow Face Inset
+guid: {a: 10541681276808466816, b: 11861446547117575336}
+xshader: {localId: 1, path: 00000000-0000-0000-0000-000000000019--00000000-0000-0000-0000-000000000019.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 8666161497054129814, b: 6019964191821774486}
+  floatmap:
+    __class: Map
+    _Rotation: 0
+  vec4map:
+    __class: Map
+    _BaseColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+    _MeshRescale: {x: 1, y: 1, z: 1}
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _TextureRescale: {x: 1, y: 1}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _BaseTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000023--00000000-0000-0000-0000-000000000023.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AMAZING_USE_BONES: !<str> 1
+mshaderPath: ""
+instanceCount: 0

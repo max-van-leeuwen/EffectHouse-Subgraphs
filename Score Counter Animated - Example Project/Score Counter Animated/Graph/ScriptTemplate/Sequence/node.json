@@ -1,0 +1,57 @@
+{
+	"name": "Sequence",
+	"id": "476964aa-2b3f-501a-724a-c92ce4391ce3",
+	"inputs": [
+		{
+			"name": "Enter",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "The input execution that triggers this node",
+			"displayType": "Exec"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Procedure 1",
+			"type": "Pulse",
+			"item_type": "",
+			"default_value": "0",
+			"description": "Execute the next node as the first procedure",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Procedure 2",
+			"type": "Pulse",
+			"item_type": "",
+			"default_value": "0",
+			"description": "Execute the next node as the second procedure",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Procedure 3",
+			"type": "Pulse",
+			"item_type": "",
+			"default_value": "0",
+			"description": "Execute the next node as the last procedure",
+			"displayType": "Exec"
+		}
+	],
+	"lua": "CGSequence.lua",
+	"js": "CGSequence.js",
+	"version": "1.0.1",
+	"amazingVersion": "10.40.0",
+	"luaFuncName": "CGSequence",
+	"category": "Control",
+	"description": "Execute procedures one by one. You can click \"+\" to add more outputs.",
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"addableOutput": {
+		"index": 2,
+		"baseName": "Procedure ",
+		"increaseStartIndex": 4
+	},
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Control/Sequence"
+}

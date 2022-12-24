@@ -1,0 +1,92 @@
+{
+	"name": "Timer",
+	"id": "4fa40910-98a8-e9f2-ee28-15b4d2a6fb7c",
+	"inputs": [
+		{
+			"name": "Start",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Start the timer",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Pause",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Pause the timer",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Resume",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Resume the timer",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Duration",
+			"type": "Double",
+			"item_type": "",
+			"description": "The total number of seconds that the timer counts",
+			"displayType": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Started",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node when the timer starts",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Tick",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Executes the next node each frame",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Completed",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node when the timer stops",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Elapsed Time",
+			"type": "Double",
+			"item_type": "",
+			"description": "The number of seconds elapsed since the timer started",
+			"displayType": "Number"
+		},
+		{
+			"name": "Progress",
+			"type": "Double",
+			"item_type": "",
+			"description": "The proportion of the duration that has elapsed. Value range: 0 to 1",
+			"displayType": "Number"
+		},
+		{
+			"name": "Remaining",
+			"type": "Double",
+			"item_type": "",
+			"description": "The number of seconds remaining until the timer stops",
+			"displayType": "Number"
+		}
+	],
+	"lua": "CGTimer.lua",
+	"js": "CGTimer.js",
+	"version": "1.0.1",
+	"amazingVersion": "10.40.0",
+	"luaFuncName": "CGTimer",
+	"category": "Time",
+	"nodeEvent": "onUpdate",
+	"description": "Use a timer to manage different executions.",
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Time/Timer"
+}

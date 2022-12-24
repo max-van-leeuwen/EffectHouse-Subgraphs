@@ -1,0 +1,35 @@
+%YAML 1.1
+--- !Material &1
+name: Left Eye Face Inset
+guid: {a: 16737884806845669362, b: 11507284504068048817}
+xshader: {localId: 1, path: 00000000-0000-0000-0000-000000000016--00000000-0000-0000-0000-000000000016.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 15512290833227612429, b: 12525395802360658588}
+  floatmap:
+    __class: Map
+    _Rotation: 0
+  vec4map:
+    __class: Map
+    _BaseColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+    _MeshRescale: {x: 1, y: 1, z: 1}
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _TextureRescale: {x: 1, y: 1}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _BaseTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000023--00000000-0000-0000-0000-000000000023.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+mshaderPath: ""
+instanceCount: 0

@@ -1,0 +1,53 @@
+{
+	"name": "Divide",
+	"id": "af1dd159-5fa9-47af-b3a0-cf81f5051b8c",
+	"inputs": [
+		{
+			"name": "A",
+			"type": "Double",
+			"item_type": "",
+			"dynamic": true,
+			"default_value": "0",
+			"description": "The dividend",
+			"displayType": "Number"
+		},
+		{
+			"name": "B",
+			"type": "Double",
+			"item_type": "",
+			"dynamic": true,
+			"default_value": "1",
+			"description": "The divisor",
+			"displayType": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "A/B",
+			"type": "Double",
+			"item_type": "",
+			"dynamic": true,
+			"description": "The quotient of A divided by B",
+			"displayType": "Number"
+		}
+	],
+	"lua": "CGDivide.lua",
+	"js": "CGDivide.js",
+	"version": "1.0.1",
+	"amazingVersion": "10.40.0",
+	"luaFuncName": "CGDivide",
+	"category": "Math",
+	"description": "Divide one value (A) by another (B). Supported types: Number, Vec2, Vec3, and Vec4.",
+	"supportedValueTypes": [
+		"Double",
+		"Int",
+		"Vector2f",
+		"Vector3f",
+		"Vector4f"
+	],
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	]
+}

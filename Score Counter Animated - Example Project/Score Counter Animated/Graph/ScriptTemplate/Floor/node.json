@@ -1,0 +1,38 @@
+{
+	"name": "Floor",
+	"id": "ef9a8324-fbb3-fac2-efd4-1e5590fc8176",
+	"inputs": [
+		{
+			"name": "A",
+			"type": "Double",
+			"item_type": "",
+			"default_value": "0",
+			"description": "The value to round down",
+			"displayType": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Result",
+			"type": "Int",
+			"item_type": "",
+			"description": "The value rounded down",
+			"displayType": "Number"
+		}
+	],
+	"lua": "CGFloor.lua",
+	"js": "CGFloor.js",
+	"version": "1.0.1",
+	"amazingVersion": "10.40.0",
+	"luaFuncName": "CGFloor",
+	"category": "Math",
+	"description": "Round down the input value. It is first integer smaller or equal to the input.",
+	"supportedValueTypes": [
+		"Double"
+	],
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	]
+}

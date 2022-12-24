@@ -1,0 +1,66 @@
+{
+	"name": "Select",
+	"id": "ED640EBF-793B-192F-88F6-C89E94204E36",
+	"inputs": [
+		{
+			"name": "Index",
+			"description": "The input rounded value, controlling which item to be selected. For example, if the input is 1.4, it will be rounded to 1, if it is 1.5, it will be 2.",
+			"type": "Int",
+			"displayType": "Number"
+		},
+		{
+			"name": "Item 0",
+			"type": "Double",
+			"dynamic": true,
+			"description": "The first item, which will be selected when Index is 0",
+			"displayType": "Number"
+		},
+		{
+			"name": "Item 1",
+			"type": "Double",
+			"dynamic": true,
+			"description": "The second item, which will be selected when Index is 1",
+			"displayType": "Number"
+		},
+		{
+			"name": "Item 2",
+			"type": "Double",
+			"dynamic": true,
+			"description": "The third item, which will be selected when Index is 2",
+			"displayType": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Item",
+			"type": "Double",
+			"dynamic": true,
+			"description": "The selected item according to the input index",
+			"displayType": "Number"
+		}
+	],
+	"category": "Utility",
+	"description": "Select an item to output according to the input index. You can click \"+\" to add more items. Supported types: Number, Vec2, Vec3, Vec4, String, Color, Texture 2D, Rect, and Material.",
+	"productTypes": [
+		"TTEH"
+	],
+	"js": "CGIndexSelect.js",
+	"addableInput": {
+		"index": 3,
+		"baseName": "Item ",
+		"increaseStartIndex": 3
+	},
+	"supportedValueTypes": [
+		"Double",
+		"Vector2f",
+		"Vector3f",
+		"Vector4f",
+		"String",
+		"Color",
+		"Texture2D",
+		"Rect",
+		"Material"
+	],
+	"version": "1.0.1",
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Utility/Select"
+}

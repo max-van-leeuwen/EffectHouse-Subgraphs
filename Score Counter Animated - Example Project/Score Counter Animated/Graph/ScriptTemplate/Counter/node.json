@@ -1,0 +1,70 @@
+{
+	"name": "Counter",
+	"id": "7281bf2b-64c9-123a-a8ce-db6a9b6fa6e1",
+	"inputs": [
+		{
+			"name": "Increase",
+			"description": "Add value to the origin number",
+			"type": "Pulse",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Decrease",
+			"description": "Deduct value from the origin number",
+			"type": "Pulse",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Reset",
+			"description": "Reset the counter to the From value",
+			"type": "Pulse",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Step",
+			"description": "The value to increase or decrease",
+			"type": "Double",
+			"default_value": "1",
+			"displayType": "Number"
+		},
+		{
+			"name": "From",
+			"description": "The origin value to increase or decrease",
+			"default_value": "0",
+			"type": "Double",
+			"displayType": "Number"
+		},
+		{
+			"name": "To",
+			"description": "The end value of the count",
+			"type": "Double",
+			"default_value": "10",
+			"displayType": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Next",
+			"description": "Execute the next node",
+			"type": "Pulse",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Current",
+			"description": "The current output number after increasing or decreasing",
+			"type": "Double",
+			"displayType": "Number"
+		}
+	],
+	"category": "Utility",
+	"description": "Increase or decrease a certain value to/from an origin number.",
+	"productTypes": [
+		"TTEH"
+	],
+	"js": "CGCounter.js",
+	"nodeEvent": [
+		"beforeStart"
+	],
+	"version": "1.0.1",
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Utility/Counter"
+}

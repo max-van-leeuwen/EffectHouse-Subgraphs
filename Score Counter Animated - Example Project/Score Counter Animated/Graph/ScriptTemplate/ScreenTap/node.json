@@ -1,0 +1,37 @@
+{
+	"name": "Screen Tap",
+	"id": "84ab3541-edc9-e87e-32b1-ab9c4097c856",
+	"inputs": [],
+	"outputs": [
+		{
+			"name": "Next",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node when the screen is tapped",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Position",
+			"type": "Vector2f",
+			"item_type": "",
+			"description": "The 2D position of the tapping point",
+			"displayType": "Vec2"
+		}
+	],
+	"js": "CGScreenTap.js",
+	"version": "2.0.0",
+	"amazingVersion": "10.40.0",
+	"nodeEvent": "onEvent",
+	"category": "Event",
+	"subCategory": "Input",
+	"graphAlgorithms": [
+		"TouchGes"
+	],
+	"description": "Execute the next node when the device screen is tapped. It is executed as soon as the finger touches the device screen.",
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Event/Screen-Tap"
+}
